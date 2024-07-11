@@ -11,8 +11,8 @@ const ProductCard : React.FC<Props> = ({image}) => {
     return (
 
 
-        <div className='flex flex-col w-[361px] h-[472px] items-center px-4 gap-4 rounded-[10px] border border-dark-blue my-4 shadow-white-strong ' >
-            <Image src={image} alt='shoes' className='rounded-[4px] w-[361px] h-[220px]' />
+        <div className='flex flex-col w-[361px] 2xl:w-[394.67px] h-[472px] items-center px-4 gap-4 rounded-[10px] border border-dark-blue my-4 shadow-white-strong  ' >
+            <Image src={image} alt='shoes' className='rounded-[4px] w-[361px] 2xl:w-[394.67px] h-[220px]' />
 
 
             <div className='grid gap-4 w-full'>
