@@ -1,83 +1,45 @@
 import Header from '@/components/header/Header'
-import WatchIcon from '@/icons/WatchIcon'
-import Image from 'next/image'
 import React from 'react'
-import Sneaker from '@/assets/sneaker.png'
-import KupaIcon from '@/icons/KupaIcon'
-import CursusAmetIcon from '@/icons/CursusAmetIcon'
-import TVIcon from '@/icons/TVIcon'
-import TopContentItem from '@/components/TopContentItem'
-import { DesktopRectangle, MobileRectangle } from '@/icons/Rectangle'
-import SignUpNowButton from '@/components/SignUpNowButton'
+import ProductCard from '@/components/ProductCard'
+import Backlights from '@/icons/Backlights'
+import TopContent from '@/components/TopContent'
+import FirstImage from '@/assets/product-cart-image-first.jpeg'
+import SecondImage from '@/assets/product-cart-image-second.jpeg'
+import ThirdImage from '@/assets/product-cart-image-third.jpeg'
+
 const Home = () => {
   return (
     <div>
       <Header />
 
       {/*top content sneaker*/}
-      <div className="py-12 ">
+      <TopContent />
 
-        <div className='flex flex-col items-center gap-8 md:flex-row md:justify-between px-8'>
+      <div className='w-screen min-h-screen relative bg-[#0F172A] flex items-center flex-col justify-center gap-4 p-4'>
+        <p className='font-bold text-[32px] leading-[35.2px] text-white '>The best of the best</p>
+
+        <button className="border-2 border-white w-[179px] h-[56px] rounded-lg p-4">
+          <p className="text-white text-[20px] font-medium leading-6 tracking-[0.5px]">
+            Sign up now
+          </p>
+        </button>
         
-        
-         <div className='md:w-[714px] grid gap-8 md:gap-12 '>
+        <div className='relative flex flex-col items-center '>
 
-
-            <h1 className="font-roboto text-6xl font-extrabold leading-[61.6px] text-center text-[#0F172A] md:text-start">
-              Collectible Sneakers
-            </h1>
-
-            <p className="text-[#0F172A] font-roboto text-lg font-normal leading-[28.8px] text-center md:text-start">
-              Sit elit feugiat turpis sed integer integer accumsan turpis. Sed suspendisse nec lorem mauris. Pharetra, eu imperdiet ipsum ultrices amet.
-            </p>
-
-            {/* Buttons */}
-            <div className="w-[347px] h-14 flex gap-4">
-              <SignUpNowButton />
-
-              <button className="w-[152px] h-[48px] rounded-lg py-3 px-2 flex items-center justify-between">
-                <WatchIcon />
-                <p className="text-[#78350F] w-[96px] text-sm font-medium leading-6 tracking-[0.5px]">
-                  Watch Demo
-                </p>
-              </button>
-            </div>
+          <div className='absolute  bottom-0 z-10 '>
+            <Backlights />
           </div>
 
-          <div className='w-[361px] h-[314.2px] md:w-[486px] md:h-[423.2px]  flex items-center justify-center '>
-            <div className="w-[272.61px] h-[276.32px]  gap-[10px] rounded-[50px] flex items-center justify-center bg-[#FBBF24]">
-              <Image src={Sneaker} alt='sneaker' />
+          <div className='z-50'>
+                <ProductCard  image={FirstImage}/>
+                <ProductCard  image={SecondImage}/>
+                <ProductCard  image={ThirdImage}/>
             </div>
-
-          </div>
-
         </div>
 
-
-
-        <div className='w-screen  relative flex flex-col items-center'>
-          
-          <div className='!hidden md:!block '><DesktopRectangle /></div>
-          <div className='!block md:!hidden'><MobileRectangle /></div>
-
-          <div className='
-          w-full flex flex-col  items-center bg-[#FEF3C7] gap-8 py-12 px-4
-          md:flex-row md:bg-transparent md:justify-center
-          '>
-
-            <TopContentItem icon={<KupaIcon />} text='Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa.' title='Nibh viverra' />
-
-
-            <TopContentItem icon={<CursusAmetIcon />} text='Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa. ' title='Cursus amet' />
-
-            <TopContentItem icon={<TVIcon />} text='Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa.' title='Ipsum fermentum' />
-
-          </div>
-
-        </div>
-
-        
       </div>
+
+
     </div>
   )
 }
