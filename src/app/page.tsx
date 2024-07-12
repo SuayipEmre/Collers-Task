@@ -7,10 +7,11 @@ import SecondImage from '@/assets/product-cart-image-second.jpeg'
 import ThirdImage from '@/assets/product-cart-image-third.jpeg'
 import { DesktopBacklights, MobileBacklights } from '@/icons/Backlights'
 import WhyJoinUsContent from '@/components/WhyJoinUsContent'
+import TheyLoveUscontent from '@/components/TheyLoveUsContent'
 
 const Home = () => {
   return (
-    <div>
+    <main>
       <Header />
 
       {/*top content sneaker*/}
@@ -59,9 +60,13 @@ const Home = () => {
       {/*why join us content */}
       <WhyJoinUsContent />
 
-    
+      <TheyLoveUscontent />
 
-    </div>
+      <div className='h-[400px]'/>
+
+
+
+    </main>
   )
 }
 

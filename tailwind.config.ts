@@ -18,9 +18,12 @@ const config: Config = {
         'white-strong': '0px 25px 50px -12px #FFFFFF40',
         'black-soft': '0px 0px 10px 0px #00000012',
         'black-strong': '0px 20px 25px -5px #0000001A',
+        'black-light': '0px 0px 6px 0px #00000012',
+        'black-medium': '0px 10px 15px -3px #0000001A',
       },
       colors: {
         'dark-blue': '#0F172A',
+        'custom-gray': '#E2E8F0',
       },
     },
   },
