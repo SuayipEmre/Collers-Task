@@ -16,7 +16,7 @@ const ProductCard : React.FC<Props> = ({image}) => {
 
 
             <div className='grid gap-4 w-full'>
-                <h6 className='text-2xl text-white  font-bold leading-[26.4px]'>Title</h6>
+                <h6 className='text-xl text-white  font-bold leading-[26.4px]'>Title</h6>
                 <p className=" text-lg text-white  font-normal leading-[28.8px]  text-left ">Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.</p>
             </div>
 
