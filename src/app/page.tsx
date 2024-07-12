@@ -6,10 +6,6 @@ import FirstImage from '@/assets/product-cart-image-first.jpeg'
 import SecondImage from '@/assets/product-cart-image-second.jpeg'
 import ThirdImage from '@/assets/product-cart-image-third.jpeg'
 import { DesktopBacklights, MobileBacklights } from '@/icons/Backlights'
-import DecoVideo from '@/icons/DecoVideo'
-import ScreenIcon from '@/icons/ScreenIcon'
-import ListItemIcon from '@/icons/ListItemIcon'
-import SignUpNowButton from '@/components/SignUpNowButton'
 import WhyJoinUsContent from '@/components/WhyJoinUsContent'
 
 const Home = () => {
