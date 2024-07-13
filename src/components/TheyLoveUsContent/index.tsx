@@ -9,10 +9,10 @@ import CharoletteHanlin from '@/assets/charolette-hanlin.jpeg'
 import 'react-multi-carousel/lib/styles.css';
 import ZommerIcon from '@/icons/ZommerIcon';
 import ArtVenue from '@/icons/ArtVenue';
-import WavesIcon from '@/icons/WavesIcon';
 import CarouselItem from '../CarouselItem';
 import { ButtonGroupProps } from 'react-multi-carousel/lib/types';
 import { LeftButtonIcon, RightButtonIcon } from '@/icons/ButtonIcon';
+import WavesLogoIcon from '@/icons/WavesCompanyIcon';
 
 const responsive = {
     desktop: {
@@ -46,7 +46,7 @@ const ButtonGroup: React.FC<ButtonGroupProps> = ({ next, previous }) => {
 
 const TheyLoveUscontent = () => {
     return (
-        <div className='flex flex-col items-center py-12 px-4 xl:gap-20 xl:p-20'>
+        <div className='flex  flex-col items-center py-12 px-4 xl:gap-20 xl:p-20'>
             <div className='w-[393px] xl:w-[1360px] '>
                 <h5 className="font-roboto text-[32px] xl:text-4xl  font-bold leading-[35.2px] text-center xl:text-start text-dark-blue my-4">Because they love us</h5>
             </div>
@@ -57,7 +57,7 @@ const TheyLoveUscontent = () => {
                     arrows={false}
                     autoPlaySpeed={3000}
                     centerMode={false}
-                    containerClass="relative !overflow-visible "
+                    containerClass="relative  "
                     draggable
                     focusOnSelect={false}
                     infinite
@@ -103,7 +103,7 @@ const TheyLoveUscontent = () => {
 
                     <CarouselItem
                         explanation='Magna egestas aliquet ut integer non. Sed diam enim nibh sit. Aliquam laoreet aenean metus nibh eu scelerisque.'
-                        icon={<WavesIcon />}
+                        icon={<WavesLogoIcon />}
                         job='Ceo'
                         name='Charolette Hanlin'
                         profile_image={CharoletteHanlin}

@@ -8,6 +8,7 @@ import ThirdImage from '@/assets/product-cart-image-third.jpeg'
 import { DesktopBacklights, MobileBacklights } from '@/icons/Backlights'
 import WhyJoinUsContent from '@/components/WhyJoinUsContent'
 import TheyLoveUscontent from '@/components/TheyLoveUsContent'
+import GrowYourCollectionContent from '@/components/GrowYourCollectionContent'
 
 const Home = () => {
   return (
@@ -62,7 +63,7 @@ const Home = () => {
 
       <TheyLoveUscontent />
 
-      <div className='h-[400px]'/>
+      <GrowYourCollectionContent />
 
 
 
