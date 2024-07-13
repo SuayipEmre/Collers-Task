@@ -9,6 +9,7 @@ import { DesktopBacklights, MobileBacklights } from '@/icons/Backlights'
 import WhyJoinUsContent from '@/components/WhyJoinUsContent'
 import TheyLoveUscontent from '@/components/TheyLoveUsContent'
 import GrowYourCollectionContent from '@/components/GrowYourCollectionContent'
+import ShoesCollectedContent from '@/components/ShoesCollectedContent'
 
 const Home = () => {
   return (
@@ -64,6 +65,8 @@ const Home = () => {
       <TheyLoveUscontent />
 
       <GrowYourCollectionContent />
+
+      <ShoesCollectedContent />
 
 
 
