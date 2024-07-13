@@ -18,12 +18,12 @@ const ShoesCollectedContent = () => {
 
         </div>
 
-        <div className='flex flex-col gap-8 h-24 mt-14 xl:items-start xl:ml-44 '>
+        <div className='flex flex-col gap-8 h-24 mt-14 xl:items-start  xl:ml-44 '>
           <h3 className="font-roboto text-5xl  font-extrabold leading-[52.8px] text-center xl:text-[96px] xl:leading-[105px] text-[#FFFBEB]">
             11,658,467
           </h3>
 
-          <h5 className="font-roboto text-4xl font-bold leading-[35.2px] text-center text-[#FFFBEB]">
+          <h5 className="font-roboto text-4xl font-bold leading-[35.2px] text-center  xl:w-full text-[#FFFBEB]">
             Shoes Collected
           </h5>
         </div>

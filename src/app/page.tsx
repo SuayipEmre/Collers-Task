@@ -10,6 +10,7 @@ import WhyJoinUsContent from '@/components/WhyJoinUsContent'
 import TheyLoveUscontent from '@/components/TheyLoveUsContent'
 import GrowYourCollectionContent from '@/components/GrowYourCollectionContent'
 import ShoesCollectedContent from '@/components/ShoesCollectedContent'
+import Footer from '@/components/Footer'
 
 const Home = () => {
   return (
@@ -68,7 +69,7 @@ const Home = () => {
 
       <ShoesCollectedContent />
 
-
+      <Footer />
 
     </main>
   )
