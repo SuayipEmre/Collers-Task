@@ -1,8 +1,12 @@
 import React from 'react'
 
-const SignUpNowButton = () => {
+
+type Props = {
+  isWhiteBorder?: boolean
+}
+const SignUpNowButton : React.FC<Props> = ({isWhiteBorder}) => {
   return (
-    <button className="border-2 border-[#78350F] w-[179px] h-[56px] rounded-lg p-4">
+    <button className={`isWhiteBorder ? 'border-white' : 'border-2 border-[#78350F]'} rounded-lg py-5 px-6` }>
     <p className="text-[#78350F] text-[20px] font-medium leading-6 tracking-[0.5px]">
       Sign up now
     </p>

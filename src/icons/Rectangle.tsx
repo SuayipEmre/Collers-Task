@@ -9,9 +9,6 @@ export const MobileRectangle = () => {
             >
                 <path d="M393 106.716V0L0 324H393V106.716Z" fill="#FEF3C7" />
             </svg>
-
-
-
     )
 }
 

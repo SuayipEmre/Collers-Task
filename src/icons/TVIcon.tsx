@@ -15,7 +15,7 @@ const TVIcon = () => {
 
 export const HelperIcon = () => {
     return (
-        <div className='absolute top-0 right-0'>
+        <div className='absolute bottom-10 '>
             <svg width="45" height="46" viewBox="0 0 45 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect opacity="0.5" y="0.203613" width="45" height="45" rx="20" fill="#A21CAF" />
             </svg>

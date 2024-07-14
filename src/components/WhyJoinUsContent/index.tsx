@@ -6,7 +6,7 @@ import { DesktopDecoVideo, MobileDecoVideo } from '@/icons/DecoVideo'
 
 const WhyJoinUsContent = () => {
     return (
-        <div className='pt-4 pb-14 px-4  xl:flex xl:justify-center '>
+        <div className='pt-4  pb-14 px-4  xl:flex xl:justify-center '>
             
             <div className='shadow-black-strong gap-8 py-8 px-4 md:flex xl:flex xl:p-20 xl:gap-20 xl:items-center xl:bg-transparent md:justify-between xl:py-40 xl:px-20 rounded-[30px] xl:w-[1280px] xl:h-[496px] '>
                 

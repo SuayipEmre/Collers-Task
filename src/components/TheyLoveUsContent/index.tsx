@@ -35,11 +35,11 @@ const responsive = {
 
 const ButtonGroup: React.FC<ButtonGroupProps> = ({ next, previous }) => {
     return (
-        <div className="carousel-button-group absolute   -top-28 z-20 right-0  hidden xl:flex gap-6">
-            <div onClick={next}>
+        <div className="carousel-button-group absolute   -top-36 z-20 right-0  hidden xl:flex gap-6">
+            <div onClick={next} className='cursor-pointer'>
                 <LeftButtonIcon />
             </div>
-            <div onClick={previous}>
+            <div onClick={previous} className='cursor-pointer'>
                 <RightButtonIcon />
             </div>
         </div>
@@ -48,18 +48,19 @@ const ButtonGroup: React.FC<ButtonGroupProps> = ({ next, previous }) => {
 
 const TheyLoveUscontent = () => {
     return (
-        <div className='flex  flex-col items-center py-12 px-4 xl:gap-20 xl:p-20 '>
-            <div className='w-[393px] xl:wfull '>
-                <h5 className=" text-[32px] xl:text-4xl  font-bold leading-[35.2px] text-center xl:text-start text-dark-blue my-4">Because they love us</h5>
+        <div className='flex flex-col  items-center py-12  px-4 xl:gap-20 xl:p-20 '>
+          
+            <div className='w-[361px]  xl:w-[1280px]  gap-2 xl:gap-12  '>
+                <h5 className="w-full text-[32px] xl:text-4xl   font-bold leading-[35.2px] text-center xl:text-start text-dark-blue my-4">Because they love us</h5>
             </div>
 
-            <div className='bg-[#FDE68A] w-full xl:w-[1360px] relative '>
+            <div className='bg-[#FDE68A] w-full h-[277px] xl:h-[421px] xl:w-[1360px]'>
                 <Carousel
                     additionalTransfrom={0}
                     arrows={false}
                     autoPlaySpeed={3000}
                     centerMode={false}
-                    containerClass="relative !overflow-y-visible !overflow-x-hidden xl:!overflow-visible"
+                    containerClass="relative "
                     draggable
                     focusOnSelect={false}
                     infinite
@@ -76,7 +77,7 @@ const TheyLoveUscontent = () => {
                     renderDotsOutside
                     customButtonGroup={<ButtonGroup />}
                     partialVisible={false}
-                    itemClass='flex justify-center absolute top-10 '
+                    itemClass='flex justify-center mt-4 xl:mt-12  '
                    
 
 
