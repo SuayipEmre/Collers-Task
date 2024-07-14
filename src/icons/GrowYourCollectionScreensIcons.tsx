@@ -4,7 +4,7 @@ export const CollectionContentBackScreenMobileIcon = () => {
   return (
     <svg width="348" height="280" viewBox="0 0 348 280" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
 <g filter="url(#filter0_dd_1_1367)">
-<g clip-path="url(#clip0_1_1367)">
+<g clipPath="url(#clip0_1_1367)">
 <rect x="16" y="15.2036" width="294" height="201" rx="20" fill="white"/>
 <path d="M37 39.8974C34.6987 39.8974 32.8333 38.0319 32.8333 35.7307C32.8333 33.4294 34.6987 31.564 37 31.564C39.3012 31.564 41.1666 33.4294 41.1666 35.7307C41.1666 38.0319 39.3012 39.8974 37 39.8974Z" fill="#E11D48"/>
 <path d="M52 39.8974C49.6987 39.8974 47.8333 38.0319 47.8333 35.7307C47.8333 33.4294 49.6987 31.564 52 31.564C54.3012 31.564 56.1666 33.4294 56.1666 35.7307C56.1666 38.0319 54.3012 39.8974 52 39.8974Z" fill="#FBBF24"/>
@@ -13,11 +13,11 @@ export const CollectionContentBackScreenMobileIcon = () => {
 <rect x="16" y="56.2036" width="294" height="160" fill="url(#pattern0_1_1367)" shapeRendering="crispEdges"/>
 </g>
 </g>
-<rect x="18.5" y="17.7036" width="289" height="196" rx="17.5" stroke="white" stroke-width="5"/>
+<rect x="18.5" y="17.7036" width="289" height="196" rx="17.5" stroke="white" strokeWidth="5"/>
 </g>
 <defs>
 <filter id="filter0_dd_1_1367" x="-22" y="0.203613" width="370" height="279" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset/>
 <feGaussianBlur stdDeviation="7.5"/>
@@ -65,7 +65,7 @@ export const CollectionContentBackScreenDesktopIcon = () => {
   return(
     <svg width="835" height="529" viewBox="0 0 835 529" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
 <g filter="url(#filter0_dd_1_1244)">
-<g clip-path="url(#clip0_1_1244)">
+<g clipPath="url(#clip0_1_1244)">
 <rect x="38" y="15" width="759" height="451" rx="20" fill="white"/>
 <path d="M59 39.6937C56.6987 39.6937 54.8333 37.8283 54.8333 35.527C54.8333 33.2258 56.6987 31.3604 59 31.3604C61.3012 31.3604 63.1666 33.2258 63.1666 35.527C63.1666 37.8283 61.3012 39.6937 59 39.6937Z" fill="#E11D48"/>
 <path d="M74 39.6937C71.6987 39.6937 69.8333 37.8283 69.8333 35.527C69.8333 33.2258 71.6987 31.3604 74 31.3604C76.3012 31.3604 78.1666 33.2258 78.1666 35.527C78.1666 37.8283 76.3012 39.6937 74 39.6937Z" fill="#FBBF24"/>
@@ -78,7 +78,7 @@ export const CollectionContentBackScreenDesktopIcon = () => {
 </g>
 <defs>
 <filter id="filter0_dd_1_1244" x="0" y="0" width="835" height="529" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset/>
 <feGaussianBlur stdDeviation="7.5"/>
@@ -126,7 +126,7 @@ export const CollectionContentFrontScreenMobileIcon = () => {
   return (
     <svg width="371" height="281" viewBox="0 0 371 281" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
 <g filter="url(#filter0_dd_1_1368)">
-<g clip-path="url(#clip0_1_1368)">
+<g clipPath="url(#clip0_1_1368)">
 <rect x="38" y="15.2036" width="295" height="202" rx="20" fill="white"/>
 <path d="M59 39.8974C56.6987 39.8974 54.8333 38.0319 54.8333 35.7307C54.8333 33.4294 56.6987 31.564 59 31.564C61.3012 31.564 63.1666 33.4294 63.1666 35.7307C63.1666 38.0319 61.3012 39.8974 59 39.8974Z" fill="#E11D48"/>
 <path d="M74 39.8974C71.6987 39.8974 69.8333 38.0319 69.8333 35.7307C69.8333 33.4294 71.6987 31.564 74 31.564C76.3012 31.564 78.1666 33.4294 78.1666 35.7307C78.1666 38.0319 76.3012 39.8974 74 39.8974Z" fill="#FBBF24"/>
@@ -283,7 +283,7 @@ export const CollectionContentHelperDesktopIcon = () => {
     <svg width="342" height="374" viewBox="0 0 342 374" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
 <g filter="url(#filter0_dd_1_1246)">
 <rect x="43" y="20" width="256" height="286" rx="10" fill="url(#pattern0_1_1246)" shapeRendering="crispEdges"/>
-<rect x="40.5" y="17.5" width="261" height="291" rx="12.5" stroke="white" stroke-width="5" shapeRendering="crispEdges"/>
+<rect x="40.5" y="17.5" width="261" height="291" rx="12.5" stroke="white" strokeWidth="5" shapeRendering="crispEdges"/>
 </g>
 <defs>
 <filter id="filter0_dd_1_1246" x="0" y="0" width="342" height="374" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">

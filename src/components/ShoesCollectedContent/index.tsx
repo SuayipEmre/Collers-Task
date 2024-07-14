@@ -5,25 +5,25 @@ import Image from 'next/image'
 
 const ShoesCollectedContent = () => {
   return (
-    <div className='relative bg-[#78350F] w-screen gap-8 py-12 px-4 h-[717px] xl:w-[1440px] xl:mx-auto'>
+    <div className='relative bg-[#78350F] w-screen gap-8 py-12 px-4 h-[717px]  xl:mx-auto'>
 
 
       <div className='absolute top-10 left-[20%] z-10'>
         <Image src={Shoes} alt='shoes' className='rounded-[10px] w-64 h-[200px] border-[5px] border-white shadow-black-heavy' />
 
         <div className='pt-4 pb-2 px-4 w-[250px] h-16 bg-[#E2E8F0] rounded-[5px] shadow-black-strong'>
-          <p className="font-roboto text-sm font-normal leading-[19.6px] text-left">
+          <p className=" text-sm font-normal leading-[19.6px] text-left">
             Emma Simpson collected one pair of Cool Shoes.
           </p>
 
         </div>
 
         <div className='flex flex-col gap-8 h-24 mt-14 xl:items-start  xl:ml-44 '>
-          <h3 className="font-roboto text-5xl  font-extrabold leading-[52.8px] text-center xl:text-[96px] xl:leading-[105px] text-[#FFFBEB]">
+          <h3 className=" text-5xl  font-extrabold leading-[52.8px] text-center xl:text-[96px] xl:leading-[105px] text-[#FFFBEB]">
             11,658,467
           </h3>
 
-          <h5 className="font-roboto text-4xl font-bold leading-[35.2px] text-center  xl:w-full text-[#FFFBEB]">
+          <h5 className=" text-4xl font-bold leading-[35.2px] text-center  xl:w-full text-[#FFFBEB]">
             Shoes Collected
           </h5>
         </div>

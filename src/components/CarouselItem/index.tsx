@@ -14,7 +14,7 @@ const CarouselItem: React.FC<Props> = ({ explanation, icon, job, name, profile_i
             <div className='py-4'>
                 {icon}
             </div>
-            <p className="font-roboto text-base font-normal leading-[22.4px] text-left text-dark-blue w-[271px] ">{explanation}.</p>
+            <p className=" text-base font-normal leading-[22.4px] text-left text-dark-blue w-[271px] ">{explanation}.</p>
 
 
             {/*User Card */}
@@ -22,8 +22,8 @@ const CarouselItem: React.FC<Props> = ({ explanation, icon, job, name, profile_i
                 <Image src={profile_image} alt={name} className='w-16 h-16 gap-[10px] rounded-full' />
 
                 <div>
-                    <p className="font-roboto text-lg font-normal leading-[28.8px] text-left text-dark-blue">{name}</p>
-                    <p className="font-roboto text-base font-normal leading-[22.4px] text-left text-[#475569]">{job}</p>
+                    <p className=" text-lg font-normal leading-[28.8px] text-left text-dark-blue">{name}</p>
+                    <p className=" text-base font-normal leading-[22.4px] text-left text-[#475569]">{job}</p>
 
 
                 </div>

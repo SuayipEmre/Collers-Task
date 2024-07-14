@@ -8,7 +8,7 @@ type Props = {
 }
 export const FooterItem: React.FC<Props> = ({ text }) => {
     return (
-        <p className="font-roboto text-base   font-normal leading-[22.4px] text-center xl:text-left  text-[#E2E8F0] py-3 gap-2">{text}</p>
+        <p className=" text-base   font-normal leading-[22.4px] text-center xl:text-left  text-[#E2E8F0] py-3 gap-2">{text}</p>
     )
 }
 
@@ -18,7 +18,7 @@ type TitleProps = {
 }
 export const FooterTitleItem: React.FC<TitleProps> = ({ title }) => {
     return (
-        <h6 className="font-roboto text-base font-medium leading-[17.6px] text-center xl:text-left text-white gap-2 py-3">
+        <h6 className=" text-base font-medium leading-[17.6px] text-center xl:text-left text-white gap-2 py-3">
             {title}
         </h6>
     )
@@ -88,16 +88,16 @@ const Footer = () => {
             </div>
 
             <div className='gap-6 py-12 xl:py-6 xl:gap-12 flex flex-col xl:flex-row items-center justify-between '>
-                <p className="font-roboto text-base font-normal leading-[22.4px] text-center text-[#E2E8F0] ">
+                <p className=" text-base font-normal leading-[22.4px] text-center text-[#E2E8F0] ">
                     Collers @ 2023. All rights reserved.
                 </p>
 
                 <div className='flex gap-8 '>
-                    <p className="font-roboto text-base font-normal leading-[22.4px] text-left text-[#E2E8F0]">Terms</p>
-                    <p className="font-roboto text-base font-normal leading-[22.4px] text-left text-[#E2E8F0]">Privacy</p>
-                    <p className="font-roboto text-base font-normal leading-[22.4px] text-left text-[#E2E8F0]">Contact</p>
+                    <p className=" text-base font-normal leading-[22.4px] text-left text-[#E2E8F0]">Terms</p>
+                    <p className=" text-base font-normal leading-[22.4px] text-left text-[#E2E8F0]">Privacy</p>
+                    <p className=" text-base font-normal leading-[22.4px] text-left text-[#E2E8F0]">Contact</p>
                     <WorldIcon />
-                    <p className="font-roboto text-base font-normal leading-[22.4px] text-left text-[#E2E8F0]">EN</p>
+                    <p className=" text-base font-normal leading-[22.4px] text-left text-[#E2E8F0]">EN</p>
                 </div>
             </div>
 

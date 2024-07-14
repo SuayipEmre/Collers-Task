@@ -18,15 +18,17 @@ const responsive = {
     desktop: {
         breakpoint: { max: 3000, min: 1280 },
         items: 3,
+        itemSpacing: 10, 
     },
     tablet: {
         breakpoint: { max: 1280, min: 464 },
-        items: 1,
+        items: 1,        itemSpacing: 10, 
 
     },
     mobile: {
         breakpoint: { max: 464, min: 0 },
         items: 1,
+        itemSpacing: 10, 
     }
 };
 
@@ -46,18 +48,18 @@ const ButtonGroup: React.FC<ButtonGroupProps> = ({ next, previous }) => {
 
 const TheyLoveUscontent = () => {
     return (
-        <div className='flex  flex-col items-center py-12 px-4 xl:gap-20 xl:p-20'>
-            <div className='w-[393px] xl:w-[1360px] '>
-                <h5 className="font-roboto text-[32px] xl:text-4xl  font-bold leading-[35.2px] text-center xl:text-start text-dark-blue my-4">Because they love us</h5>
+        <div className='flex  flex-col items-center py-12 px-4 xl:gap-20 xl:p-20 '>
+            <div className='w-[393px] xl:wfull '>
+                <h5 className=" text-[32px] xl:text-4xl  font-bold leading-[35.2px] text-center xl:text-start text-dark-blue my-4">Because they love us</h5>
             </div>
 
-            <div className='bg-[#FDE68A] w-full xl:w-[1360px] relative'>
+            <div className='bg-[#FDE68A] w-full xl:w-[1360px] relative '>
                 <Carousel
                     additionalTransfrom={0}
                     arrows={false}
                     autoPlaySpeed={3000}
                     centerMode={false}
-                    containerClass="relative  "
+                    containerClass="relative !overflow-y-visible !overflow-x-hidden xl:!overflow-visible"
                     draggable
                     focusOnSelect={false}
                     infinite
@@ -73,7 +75,8 @@ const TheyLoveUscontent = () => {
                     renderButtonGroupOutside={true}
                     renderDotsOutside
                     customButtonGroup={<ButtonGroup />}
-                    itemClass='flex justify-center absolute top-10 !px-4 !carousel-item-padding-20-px"'
+                    partialVisible={false}
+                    itemClass='flex justify-center absolute top-10 '
                    
 
 

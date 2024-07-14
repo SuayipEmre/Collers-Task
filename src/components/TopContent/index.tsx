@@ -11,19 +11,19 @@ import Image from 'next/image'
 
 const TopContent = () => {
   return (
-    <div className="pt-12 px-0 2xl:px-24 relative mt-12">
+    <div className="pt-12 px-0 2xl:p-20 relative mt-12 ">
 
-      <div className='flex flex-col items-center gap-8 2xl:flex-row 2xl:justify-between px-8'>
+      <div className='flex flex-col items-center gap-8 2xl:flex-row 2xl:justify-between'>
 
 
         <div className='2xl:w-[714px] grid gap-8 xl:gap-12 '>
 
 
-          <h1 className="font-roboto text-6xl font-extrabold leading-[61.6px] text-center text-dark-blue xl:text-start">
+          <h1 className=" text-6xl font-extrabold leading-[61.6px] text-center text-dark-blue xl:text-start">
             Collectible Sneakers
           </h1>
 
-          <p className="text-dark-blue font-roboto text-lg font-normal leading-[28.8px] text-center 2xl:text-start">
+          <p className="text-dark-blue  text-lg font-normal leading-[28.8px] text-center 2xl:text-start">
             Sit elit feugiat turpis sed integer integer accumsan turpis. Sed suspendisse nec lorem mauris. Pharetra, eu imperdiet ipsum ultrices amet.
           </p>
 
@@ -61,7 +61,7 @@ const TopContent = () => {
           <MobileRectangle />
         </div>
 
-        <div className='w-full flex flex-col  items-center  bg-[#FEF3C7] gap-8 py-12 px-4 2xl:flex-row 2xl:bg-transparent 2xl:justify-start'>
+        <div className='w-full flex flex-col  items-center  bg-[#FEF3C7] gap-8 py-12 px-4  2xl:flex-row 2xl:bg-transparent 2xl:justify-start'>
 
           <TopContentItem icon={<KupaIcon />} text='Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa.' title='Nibh viverra' />
 
