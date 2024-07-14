@@ -60,7 +60,7 @@ const TheyLoveUscontent = () => {
                     arrows={false}
                     autoPlaySpeed={3000}
                     centerMode={false}
-                    containerClass="relative "
+                    containerClass="relative"
                     draggable
                     focusOnSelect={false}
                     infinite
