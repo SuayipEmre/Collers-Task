@@ -9,7 +9,7 @@ type Props = {
 }
 const CarouselItem: React.FC<Props> = ({ explanation, icon, job, name, profile_image }) => {
     return (
-        <div className='border border-custom-gray rounded-[20px]   shadow-black-strong bg-white p-6 gap-2 xl:p-8 xl:gap-4'>
+        <div className='border border-custom-gray rounded-[20px] shadow-black-strong bg-white p-6 gap-2 xl:p-8 xl:gap-4'>
 
             <div className='py-4'>
                 {icon}

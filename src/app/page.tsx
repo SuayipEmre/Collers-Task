@@ -1,4 +1,4 @@
-import Header from '@/components/header/Header'
+import Header from '@/components/Header/Header'
 import React from 'react'
 import TopContent from '@/components/TopContent'
 import WhyJoinUsContent from '@/components/WhyJoinUsContent'

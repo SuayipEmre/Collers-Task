@@ -35,7 +35,7 @@ const responsive = {
 
 const ButtonGroup: React.FC<ButtonGroupProps> = ({ next, previous }) => {
     return (
-        <div className="carousel-button-group absolute   -top-36 z-20 right-0  hidden xl:flex gap-6">
+        <div className="absolute right-0 -top-[137px] hidden xl:flex gap-6">
             <div onClick={next} className='cursor-pointer'>
                 <LeftButtonIcon />
             </div>
@@ -46,6 +46,8 @@ const ButtonGroup: React.FC<ButtonGroupProps> = ({ next, previous }) => {
     );
 }
 
+
+
 const TheyLoveUscontent = () => {
     return (
         <div className='flex flex-col  items-center py-12  px-4 xl:gap-20 xl:p-20 '>
@@ -54,13 +56,12 @@ const TheyLoveUscontent = () => {
                 <h5 className="w-full text-[32px] xl:text-4xl   font-bold leading-[35.2px] text-center xl:text-start text-dark-blue my-4">Because they love us</h5>
             </div>
 
-            <div className='bg-[#FDE68A] w-full h-[277px] xl:h-[421px] xl:w-[1360px]'>
+            <div className='bg-[#FDE68A] w-full h-[277px] xl:h-[421px] xl:w-[1360px] relative'>
                 <Carousel
                     additionalTransfrom={0}
                     arrows={false}
                     autoPlaySpeed={3000}
                     centerMode={false}
-                    containerClass="relative"
                     draggable
                     focusOnSelect={false}
                     infinite

@@ -1,13 +1,13 @@
 import { DesktopRectangle, MobileRectangle } from '@/icons/Rectangle'
 import React from 'react'
 import TopContentItem from './TopContentItem'
-import KupaIcon from '@/icons/KupaIcon'
 import CursusAmetIcon from '@/icons/CursusAmetIcon'
 import TVIcon from '@/icons/TVIcon'
 import Sneaker from '@/assets/sneaker.png'
 import SignUpNowButton from '../SignUpNowButton'
 import WatchIcon from '@/icons/WatchIcon'
 import Image from 'next/image'
+import CupIcon from '@/icons/CupIcon'
 
 const TopContent = () => {
   return (
@@ -18,7 +18,7 @@ const TopContent = () => {
         <div className='flex flex-col items-center gap-8 2xl:flex-row 2xl:justify-between '>
 
 
-          <div className='2xl:w-[714px] grid gap-8 xl:gap-12 '>
+          <div className='2xl:w-[714px] grid gap-8 xl:gap-12'>
 
 
             <h1 className=" text-6xl font-extrabold leading-[61.6px] text-center text-dark-blue xl:text-start">
@@ -44,23 +44,17 @@ const TopContent = () => {
 
           <div className='w-[361px] h-[314.2px] xl:w-[486px] xl:h-[423.2px]  flex items-center justify-center  '>
             <div className="w-[272.61px] h-[276.32px]  gap-[10px] rounded-[50px] xl:w-[367px] xl:h-[372px] flex items-center justify-center bg-[#FBBF24]">
-              <Image src={Sneaker} alt='sneaker' width={486} height={388} priority className='!xl:w-[486px] !xl:h-[388px] ' />
+              <Image src={Sneaker} alt='sneaker' width={486} height={388}  priority className='absolute  ' />
             </div>
-
-            <div>
-
-            </div>
-
-
           </div>
 
         </div>
 
 
 
-        <div className='w-screen flex flex-col items-center '>
+        <div className='w-screen flex flex-col items-center'>
 
-          <div className='-z-10 absolute  -top-28  left-0 right-0    hidden 2xl:flex'>
+          <div className='-z-10 absolute  -top-28  left-0 right-0  hidden 2xl:flex'>
             <DesktopRectangle />
           </div>
 
@@ -76,7 +70,7 @@ const TopContent = () => {
       <div className='py-12 px-4 gap-8 xl:p-20 xl:gap-20   flex flex-col  items-center  bg-[#FEF3C7]  2xl:flex-row 2xl:bg-transparent 2xl:justify-start'>
 
         <TopContentItem
-          icon={<KupaIcon />}
+          icon={<CupIcon />}
           text='Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa.'
           title='Nibh viverra' />
 

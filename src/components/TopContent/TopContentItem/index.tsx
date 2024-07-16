@@ -2,15 +2,18 @@ import React from 'react'
 
 
 type Props = {
-  icon : React.ReactNode
-  title : string
-  text : string
+  icon: React.ReactNode
+  title: string
+  text: string
 
 }
-const TopContentItem : React.FC<Props> = ({icon, text, title}) => {
+const TopContentItem: React.FC<Props> = ({ icon, text, title }) => {
   return (
     <div className='flex flex-col items-center xl:items-start gap-4'>
-      {icon}
+      
+      <div className='w-full relative'> 
+        {icon}
+      </div>
 
       <h3 className='text-[20px] leading-[22px] text-center text-[#0F172A]'>{title}</h3>
 
