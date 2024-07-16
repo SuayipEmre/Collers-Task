@@ -11,3 +11,10 @@
     - `npm install`
 3. Start the project: `npm run dev`
 
+
+<img src='https://raw.githubusercontent.com/SuayipEmre/Collers-Task/main/src/assets/app/topContent.png' />
+<img src='https://raw.githubusercontent.com/SuayipEmre/Collers-Task/main/src/assets/app/bestofbestcontent.png' />
+<img src='https://raw.githubusercontent.com/SuayipEmre/Collers-Task/main/src/assets/app/whycoinus.png' />
+<img src='https://raw.githubusercontent.com/SuayipEmre/Collers-Task/main/src/assets/app/theyloveus.png' />
+<img src='https://raw.githubusercontent.com/SuayipEmre/Collers-Task/main/src/assets/app/collection.png' />
+<img src='https://raw.githubusercontent.com/SuayipEmre/Collers-Task/main/src/assets/app/shoescollected.png' />
