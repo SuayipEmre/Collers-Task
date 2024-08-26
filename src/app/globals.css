@@ -4,5 +4,5 @@
 
 
 body{
-    @apply !overflow-x-hidden  !font-roboto
+    @apply !overflow-x-hidden 
 }

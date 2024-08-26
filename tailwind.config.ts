@@ -14,7 +14,8 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        roboto: ["Roboto", "sans-serif"],
+        roboto: ["var(--font-roboto)", "sans-serif"],
+        mali: ['var(--font-mali)', 'sans-serif'],
       },
       boxShadow: {
         'white-soft': '0px 0px 15px 0px #FFFFFF12',
